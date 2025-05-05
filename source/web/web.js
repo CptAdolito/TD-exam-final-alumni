@@ -37,7 +37,7 @@ app.post('/phrase', async (req, res) => {
   }
 });
 
-app.get('/prhase', async (req, res) => {
+app.get('/phrase', async (req, res) => {
   try {
     res.send('Service is alive');
   } catch (err) {
